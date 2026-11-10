@@ -1,25 +1,23 @@
-paleta de cores: 
+Fundo da página	Preto-azulado	
+#0A1012
 
-Fundo da página	
-#0F0E13
+Fundo de cartões e blocos	Grafite-ciano	
+#111A1D
 
-Fundo de cartões e blocos	
-#18171F
+Linhas e bordas	Cinza-petróleo	
+#1F2E33
 
-Linhas e bordas	
-#2B2935
+Texto principal	Branco levemente gelado	
+#E6F0F2
 
-Texto principal	
-#ECEAF2
+Texto secundário	Cinza-ciano	
+#8AA3A9
 
-Texto secundário	
-#A19DB3
+Destaque principal	Ciano elétrico	
+#22D3EE
 
-Destaque principal	
-#A78BFA
+Destaque forte (hover)	Ciano claro	
+#67E8F9
 
-Destaque forte (botões, hover)	
-#8B5CF6
-
-Destaque suave (fundos de etiqueta)	
-#2A2145
+Destaque suave (fundo de etiqueta)	Ciano escuro	
+#0E3A44

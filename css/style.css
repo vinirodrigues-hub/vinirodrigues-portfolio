@@ -1,5 +1,6 @@
 body{
-    background-color: #0F0E13;
+    background-color: #0A1012;
+    backdrop-filter: blur(12px);
     font-family: Arial, Helvetica, sans-serif;
 }
 html{
@@ -9,7 +10,7 @@ html{
 /* navbar */
 
 .navbar{
-    background-color: #16141b;
+    background-color: 10, 16, 18, 0.85;
 }
 
 .nav-link{
@@ -22,5 +23,12 @@ html{
 }
 
 .nav-link:hover{
-    color: #9972f3 !important;
+    color: #67E8F9 !important;
+}
+
+.logo{
+    padding-top: 10px ;
+    margin-left: 1rem;
+    width: 100px;
+    height: auto;
 }

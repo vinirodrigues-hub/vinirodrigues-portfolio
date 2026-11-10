@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 64 206 114" width="206" height="114" role="img" aria-label="VSR">
+  <g fill="none" stroke-width="13" stroke-linecap="butt">
+    <path d="M28 76 L52 162 L76 76" stroke="#E6F0F2" stroke-linejoin="bevel"/>
+    <path d="M148 78 H122 A21 21 0 0 0 122 120 H124 A21 21 0 0 1 124 162 H96" stroke="#22D3EE"/>
+    <path d="M172 168 V76 H194 A22 22 0 0 1 194 120 H172 M192 120 L214 168" stroke="#E6F0F2" stroke-linejoin="miter"/>
+  </g>
+</svg>
