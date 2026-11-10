@@ -1,0 +1,25 @@
+paleta de cores: 
+
+Fundo da página	
+#0F0E13
+
+Fundo de cartões e blocos	
+#18171F
+
+Linhas e bordas	
+#2B2935
+
+Texto principal	
+#ECEAF2
+
+Texto secundário	
+#A19DB3
+
+Destaque principal	
+#A78BFA
+
+Destaque forte (botões, hover)	
+#8B5CF6
+
+Destaque suave (fundos de etiqueta)	
+#2A2145
