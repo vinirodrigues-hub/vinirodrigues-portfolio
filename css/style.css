@@ -125,6 +125,7 @@ html{
 .eu button:hover{
     transform: scale(1.05);
     background-color: #67E8F9 ;
+    box-shadow: 0 10px 24px rgba(34, 211, 238, 0.35);
 }
 
 .btn-eu{
@@ -154,13 +155,13 @@ html{
 
 .abouth1 {                       
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #22d3ee;
-    margin-bottom: 3rem;
-    text-align: center;
+    margin-bottom: 2rem;
+    text-align: left;
 }
 
 .abouth2{
@@ -204,6 +205,7 @@ html{
 #about button:hover{
     transform: translateY(-5px);
     background-color: #67E8F9 ;
+    box-shadow: 0 10px 24px rgba(34, 211, 238, 0.35);
 }
 
 .btn-about{
@@ -216,7 +218,7 @@ html{
 .cardinfo{
     padding-left: 20px;
     padding: 1rem;
-    background-color: #0A1012;
+    background: linear-gradient(145deg, #12262b, #0b1518);;
     border-radius: 20px;
 }
 
@@ -317,6 +319,9 @@ html{
 
 
 .card {
+  width: 100%;
+  max-width: 320px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -385,3 +390,405 @@ html{
   transform: translateY(-2px);
 }
 
+/* Contato */
+
+#contact{
+    padding: 100px 0;
+}
+
+.contatoh1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #22d3ee;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.contatoh2{
+    font-family: 'JetBrains Mono', 'Space Grotesk', system-ui, sans-serif; font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #E6F0F2;
+    text-align: left;
+}
+
+.contatop{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 400;
+    line-height: 1.9;
+    color: #B8C4D0;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+#contact button{
+    background-color: #22D3EE;
+    border-radius: 10px;
+    padding: 16px 25px;
+    border: none;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+#contact button:hover{
+    transform: scale(1.05);
+    background-color: #67E8F9 ;
+    box-shadow: 0 10px 24px rgba(34, 211, 238, 0.35);
+}
+
+.btn-contato{
+    text-decoration: none;
+    color: #0A1012;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.contatoimg {
+  width: 150px;
+  padding-right: 20px;
+  filter: brightness(0) invert(1);
+  transition: all 0.3s ease;
+}
+
+.contatoimg:hover {
+  transform: scale(1.1);
+}
+
+/* footer */
+
+footer{
+  background-color: #0D1518;
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* Responsividade */
+
+/* Tablets e notebooks menores */
+
+@media (max-width: 991px){
+
+    /* navbar */
+
+    .github-link{
+        position: static;
+        transform: none;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .navbar{
+        padding: 10px 0;
+    }
+
+    .nav-link{
+        text-align: center;
+        padding: 0.8rem 0;
+    }
+
+    .logo{
+        width: 85px;
+    }
+
+    /* Apresentação */
+
+    .eu{
+        padding: 110px 0 80px;
+    }
+
+    .euh2{
+        font-size: 4rem;
+    }
+
+    .euimg{
+        width: 230px;
+    }
+
+    /* Sobre mim */
+
+    #about{
+        padding: 80px 0;
+    }
+
+    .abouth2{
+        font-size: 2.5rem;
+    }
+
+    .cardh1{
+        font-size: 2.5rem;
+    }
+
+    .cardh2{
+        font-size: 1.7rem;
+    }
+
+    /* Tecnologias */
+
+    #tecnologias{
+        padding: 80px 0;
+    }
+
+    .tecnocard{
+        height: 150px;
+        padding: 20px;
+    }
+
+    /* Projetos */
+
+    #projetos{
+        padding: 80px 0;
+    }
+
+    .card{
+        max-width: 100%;
+    }
+
+    /* Contato */
+
+    #contact{
+        padding: 80px 0;
+    }
+
+    .contatoh2{
+        font-size: 3rem;
+    }
+
+}
+
+/* Celulares */
+
+@media (max-width: 767px){
+
+    /* navbar */
+
+    .navbar{
+        padding: 8px 0;
+    }
+
+    .logo{
+        width: 75px;
+        margin-left: 0.5rem;
+    }
+
+    .nav-link{
+        font-size: 0.75rem;
+        letter-spacing: 1px;
+    }
+
+    .githubimg{
+        width: 35px;
+        height: 35px;
+    }
+
+    /* Apresentação */
+
+    .eu{
+        padding: 110px 0 60px;
+        text-align: center;
+    }
+
+    .euh1{
+        font-size: 0.85rem;
+        text-align: center;
+    }
+
+    .euh2{
+        font-size: 2.8rem;
+        line-height: 1.15;
+        text-align: center;
+        overflow-wrap: anywhere;
+    }
+
+    .euh3{
+        font-size: 0.95rem;
+        text-align: center;
+    }
+
+    .euimg{
+        width: 210px;
+        max-width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .eu button{
+        margin-top: 15px;
+        margin-bottom: 2rem;
+    }
+
+    /* Sobre mim */
+
+    #about{
+        padding: 65px 0;
+    }
+
+    .abouth1{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .abouth2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .abouth3{
+        font-size: 0.95rem;
+        text-align: center;
+    }
+
+    .aboutp{
+        font-size: 0.95rem;
+        text-align: left;
+    }
+
+    #about button{
+        display: block;
+        margin: 20px auto;
+    }
+
+    .cardinfo{
+        margin-top: 30px;
+        padding: 1.2rem;
+    }
+
+    .cardh1{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .cardh2{
+        font-size: 1.5rem;
+    }
+
+    .cardp{
+        font-size: 0.95rem;
+    }
+
+    /* Tecnologias */
+
+    #tecnologias{
+        padding: 65px 0;
+    }
+
+    .tecnologiah1{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .tecnocard{
+        height: 130px;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    /* Projetos */
+
+    #projetos{
+        padding: 65px 0;
+    }
+
+    .card{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card .card-title{
+        font-size: 1.1rem;
+    }
+
+    .card .card-text{
+        font-size: 0.85rem;
+    }
+
+    /* Contato */
+
+    #contact{
+        padding: 65px 0;
+    }
+
+    .contatoh1{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .contatoh2{
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .contatop{
+        font-size: 0.95rem;
+        text-align: center;
+    }
+
+    #contact button{
+        display: block;
+        margin: 20px auto;
+    }
+
+    .contatoimg{
+        width: 110px;
+        padding-right: 10px;
+    }
+
+    /* footer */
+
+    footer{
+        font-size: 0.85rem;
+        padding: 15px 10px;
+    }
+
+}
+
+/* Celulares pequenos */
+
+@media (max-width: 400px){
+
+    /* Apresentação */
+
+    .euh2{
+        font-size: 2.3rem;
+    }
+
+    .euimg{
+        width: 180px;
+    }
+
+    /* Sobre mim */
+
+    .abouth2{
+        font-size: 1.7rem;
+    }
+
+    .cardh1{
+        font-size: 1.9rem;
+    }
+
+    /* Tecnologias */
+
+    .tecnocard{
+        height: 110px;
+        padding: 10px;
+    }
+
+    /* Contato */
+
+    .contatoh2{
+        font-size: 1.9rem;
+    }
+
+    .contatoimg{
+        width: 90px;
+    }
+
+}
