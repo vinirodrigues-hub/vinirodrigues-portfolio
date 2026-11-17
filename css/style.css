@@ -10,6 +10,7 @@ section {
     scroll-margin-top: 80px;
 }
 
+
 /* navbar */
 
 .navbar{
@@ -49,32 +50,82 @@ section {
     height: auto;
 }
 
-.github-link {
-  display: flex;
-  align-items: center;
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.githubimg {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
-  display: block;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  filter: brightness(0) invert(1);
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.github-link:hover .githubimg {
-  transform: scale(1.15);
-  opacity: 0.85;
+.social-links li {
+    display: flex;
+    align-items: center;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+}
+
+.githubimg,
+.linkedinimg,
+.gmailimg {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    display: block;
+
+
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.githubimg,
+.linkedinimg{
+    filter: brightness(0) invert(1);
+}
+
+.gmailimg{
+    filter: none;
+}
+.social-links a:hover img {
+    transform: scale(1.15);
+    opacity: 0.85;
 }
 
 @media (min-width: 992px) {
-  .github-link {
-    position: absolute;
-    right: 30px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+
+    .navbar .container-fluid {
+        position: relative;
+    }
+
+    .navbar-collapse {
+        display: flex !important;
+        align-items: center;
+    }
+
+    .navbar-nav {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .social-links {
+        margin-left: auto;
+    }
+
 }
 
 /* Apresentação */
